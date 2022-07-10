@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup Chat App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat_secton">
+        <div class="brand">
+            <img height="40px" src="/wassup.png" alt="">
+            <h1>Wassup</h1>
+        </div>
+        <div class="message_area">
+            <div class="incoming message">
+                <h4>Manish</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia necessitatibus itaque repellendus aliquam asperiores architecto beatae! 
+                    Debitis rem asperiores hic enim reiciendis quasi quia et exercitationem, sit explicabo soluta obcaecati.</p>
+
+            </div>
+            <div class="outgoing message">
+                <h4>Manish</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia necessitatibus itaque repellendus aliquam asperiores architecto beatae! 
+                    Debitis rem asperiores hic enim reiciendis quasi quia et exercitationem, sit explicabo soluta obcaecati.</p>
+            </div>
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a mesage..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
